@@ -22,4 +22,8 @@
 
         yield break;
     }
+
+    public static string Stringify(this IEnumerable<char> self) => string.Join(null, self);
+    public static TResult Apply<TSource, TResult>(this TSource self, Func<TSource, TResult> func) =>
+        func(self);
 }
