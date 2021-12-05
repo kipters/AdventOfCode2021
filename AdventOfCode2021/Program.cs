@@ -17,3 +17,8 @@ Console.WriteLine("Day 4");
 await Day4.RunFirst();
 await Day4.RunSecond();
 Console.WriteLine();
+
+Console.WriteLine("Day 5");
+await Day5.RunFirst();
+await Day5.RunSecond();
+Console.WriteLine();
