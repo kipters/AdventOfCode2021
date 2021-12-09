@@ -1,0 +1,11 @@
+{
+    "name": "Advent Of Code 2021",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "eamodio.gitlens"
+    ],
+    "remoteUser": "vscode"
+}
